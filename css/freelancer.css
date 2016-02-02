@@ -33,7 +33,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    
+
     font-weight: 700;
 }
 
@@ -116,19 +116,19 @@ header .dot-seperator {
 @media(min-width:768px) {
     header .container {
         padding-top: 300px;
-        padding-bottom: 180px;
+        padding-bottom: 330px;
     }
 
     header .intro-text .name {
-        font-size: 2.75em;
+        font-size: 2.2em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 
     header .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-        max-width: 20%;
+        max-width: 15%;
     }
 }
 
@@ -466,8 +466,8 @@ footer .footer-below {
 }
 
 .project-caption {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-top: 10px;
-    color: #888;
+    color: #555;
 }
